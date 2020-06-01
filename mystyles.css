@@ -7,6 +7,16 @@
 
     font-size:4vw ;
 }
+#apptitle{
+    font-size: 3.5vw;
+    position: relative;
+    /* background-color: lemonchiffon; */
+    top: 5vw;
+    right: 48vw;
+    color: rgb(140,47,81);
+
+
+}
 
 #allcards{
     margin: 4vw;
@@ -66,8 +76,19 @@ a:link{
 
 
 
+
 /* setxrasmall mobile */
 @media (max-width:472px) { 
+
+    #apptitle{
+        position: absolute;
+        /* background-color: lawngreen; */
+        right: 34vw;
+        top: 14vw;
+        font-size: 5.5vw;
+    }  
+
+    
 
     #mynav{
         margin: 2.5vw;
@@ -136,13 +157,99 @@ a:link{
 }
 
 
+/* setxrasmall mobile */
+@media (min-width:473px) { 
+
+    #apptitle{
+        position: absolute;
+        /* background-color: rgb(248, 252, 0); */
+        right: 43vw;
+        top: 12.5vw;
+        font-size: 4.5vw;
+    }    
+
+    #mynav{
+        margin: 2.5vw;
+
+        /* background-color: rgb(240, 210, 128); */
+    }
+
+    .applogo{
+        height: 17vw;
+        width: 17vw;
+        margin-right: 0.5vw;
+    }
+    
+    #head_text{
+    
+        font-size:7vw ;
+    }
+    .dp{
+        height: 50%;
+        width: 50%;
+        border-radius: 50%;
+        margin-top: 3vw;
+        
+    }
+    
+    .name{
+        font-weight:bolder;
+        font-size:5vw;
+        margin: 0;
+    }
+    .position{
+        font-weight:bold;
+        font-size: 4.5vw;
+        margin: 0;
+    
+    }
+    .depart{
+        font-size: 4vw;
+        margin: 0;
+    
+    }
+    
+    
+    .mycard{
+        border-radius: 1vh;
+        background-color: rgba(107, 14, 76, 0.178);
+        text-align: center;
+        margin: 1vw;   
+    }
+    
+    .membertitle{
+            background-color: khaki;
+    
+    }
+    
+    .connectgit{
+        font-size: 3vw;
+    
+    }
+    
+    .gitlogo{
+        width :5vw;
+        height: 5vw;
+    }
+    
+}
+
+
+
 /* small */
 @media (min-width: 576px) { 
 
     #mynav{
         margin: 2vw;
-
     }
+
+    #apptitle{
+        position: absolute;
+        /* background-color: rgb(252, 71, 0); */
+        right: 48vw;
+        top: 12vw;
+        font-size: 4vw;
+    }  
 
     .applogo{
         height: 17vw;
@@ -216,6 +323,14 @@ a:link{
         margin-left: 3vw;
     }
 
+    #apptitle{
+        position: absolute;
+        /* background-color: rgb(0, 67, 252); */
+        right: 52vw;
+        top: 12vw;
+        font-size: 3.5vw;
+    }  
+
     .applogo{
         height: 16vw;
         width: 16vw;
@@ -281,6 +396,14 @@ a:link{
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+
+    #apptitle{
+        position: absolute;
+        /* background-color: rgb(0, 252, 189); */
+        right: 65vw;
+        top: 7.5vw;
+        font-size: 2.5vw;
+    }  
     #mynav{
         margin: 2vw;
         margin-left: 4vw;

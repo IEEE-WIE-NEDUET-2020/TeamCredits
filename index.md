@@ -20,6 +20,8 @@
         <div>
             <img style="vertical-align:middle" class  = "applogo" src="media/ICON -1.png">
             <span id ="head_text" >About The Team</span>
+            <span id = "apptitle" ><strong>Remind Me App</strong></span>
+
             <img style="vertical-align:middle ; float:right;" class = "applogo" src="media/wie_logo.jpeg">
 
         </div>
