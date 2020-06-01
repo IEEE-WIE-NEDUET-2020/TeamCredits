@@ -1,0 +1,109 @@
+
+
+#applogo{
+    height: 13vw;
+    width: 13vw;
+}
+
+#head_text{
+
+    font-size:4vw ;
+}
+
+
+/* setxrasmall mobile */
+@media (max-width: 575px) { 
+
+    #mynav{
+        margin: 2vw;
+
+        background-color: rgb(240, 210, 128);
+    }
+
+    #applogo{
+        height: 16vw;
+        width: 16vw;
+        margin-right: 0.5vw;
+    }
+    
+    #head_text{
+    
+        font-size:5.5vw ;
+    }
+
+}
+
+
+/* small */
+@media (min-width: 576px) { 
+
+    #mynav{
+        margin: 2vw;
+
+        background-color: rgb(240, 128, 216);
+    }
+
+    #applogo{
+        height: 13vw;
+        width: 13vw;
+        margin-right: 0.5vw;
+    }
+    
+    #head_text{
+    
+        font-size:4vw ;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #mynav{
+        margin: 2vw;
+        margin-left: 3vw;
+        background-color: rgb(147, 240, 128);
+    }
+
+    #applogo{
+        height: 10vw;
+        width: 10vw;
+        margin-right: 1vw;
+    }
+    
+    #head_text{
+    
+        font-size:3.5vw ;
+    }
+
+
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #mynav{
+        margin: 2vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        background-color: rgb(128, 240, 240);
+    }
+
+    #applogo{
+        height: 10vw;
+        width: 10vw;
+        margin-right: 1vw;
+    }
+    
+    #head_text{
+    
+        font-size:3vw ;
+    }
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+ }
