@@ -1,6 +1,6 @@
 
 
-#applogo{
+.applogo{
     height: 13vw;
     width: 13vw;
 }
@@ -15,20 +15,20 @@
 @media (max-width: 575px) { 
 
     #mynav{
-        margin: 2vw;
+        margin: 2.5vw;
 
-        background-color: rgb(240, 210, 128);
+        /* background-color: rgb(240, 210, 128); */
     }
 
-    #applogo{
-        height: 16vw;
-        width: 16vw;
+    .applogo{
+        height: 19vw;
+        width: 19vw;
         margin-right: 0.5vw;
     }
     
     #head_text{
     
-        font-size:5.5vw ;
+        font-size:6.5vw ;
     }
 
 }
@@ -43,7 +43,7 @@
         background-color: rgb(240, 128, 216);
     }
 
-    #applogo{
+    .applogo{
         height: 13vw;
         width: 13vw;
         margin-right: 0.5vw;
@@ -64,7 +64,7 @@
         background-color: rgb(147, 240, 128);
     }
 
-    #applogo{
+    .applogo{
         height: 10vw;
         width: 10vw;
         margin-right: 1vw;
@@ -89,7 +89,7 @@
         background-color: rgb(128, 240, 240);
     }
 
-    #applogo{
+    .applogo{
         height: 10vw;
         width: 10vw;
         margin-right: 1vw;

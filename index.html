@@ -16,9 +16,11 @@
 
 <nav id = "mynav" >
         <div>
-            <img style="vertical-align:middle" id  = "applogo" src="ICON -1.png">
+            <img style="vertical-align:middle" class  = "applogo" src="ICON -1.png">
             <span id ="head_text" >About The Team</span>
-          </div>
+            <img style="vertical-align:middle ; float:right;" class = "applogo" src="wie_logo.jpeg">
+ 
+        </div>
           
     
   </nav>
