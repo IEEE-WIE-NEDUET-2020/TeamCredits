@@ -23,7 +23,11 @@
         </div>
           
     
-  </nav>
+    </nav>
+
+
+
+    <!-- card views for members -->
         
         <script src="" async defer></script>
     </body>
