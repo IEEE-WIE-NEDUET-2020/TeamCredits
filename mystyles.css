@@ -1,5 +1,3 @@
-
-
 .applogo{
     height: 13vw;
     width: 13vw;
@@ -13,6 +11,28 @@
 #allcards{
     margin: 4vw;
     margin-top: 10vw;
+}
+
+.dp{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 4vw;
+    
+}
+
+
+.mycard{
+    border-radius: 1vh;
+    background-color: khaki;
+    text-align: center;
+    margin: 1vw;
+    
+}
+
+.membertitle{
+        background-color: khaki;
+
 }
 
 /* setxrasmall mobile */
