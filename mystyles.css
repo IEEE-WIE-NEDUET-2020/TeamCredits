@@ -21,13 +21,28 @@
     
 }
 
+.name{
+    font-weight:bolder;
+    font-size: 6.5vw;
+    margin: 0;
+}
+.position{
+    font-weight:bold;
+    font-size: 5.5vw;
+    margin: 0;
+
+}
+.depart{
+    font-size: 4.5vw;
+    margin: 0;
+
+}
+
 
 .mycard{
     border-radius: 1vh;
-    background-color: khaki;
     text-align: center;
-    margin: 1vw;
-    
+    margin: 1vw;   
 }
 
 .membertitle{
@@ -35,8 +50,24 @@
 
 }
 
+.connectgit{
+    font-size: 4vw;
+
+}
+
+.gitlogo{
+    width :5vw;
+    height: 5vw;
+}
+
+a:link{
+    color:black ;
+}
+
+
+
 /* setxrasmall mobile */
-@media (max-width: 575px) { 
+@media (max-width:472px) { 
 
     #mynav{
         margin: 2.5vw;
@@ -45,16 +76,63 @@
     }
 
     .applogo{
-        height: 19vw;
-        width: 19vw;
+        height: 20vw;
+        width: 20vw;
         margin-right: 0.5vw;
     }
     
     #head_text{
     
-        font-size:6.5vw ;
+        font-size:7vw ;
     }
-
+    .dp{
+        height: 50%;
+        width: 50%;
+        border-radius: 50%;
+        margin-top: 4vw;
+        
+    }
+    
+    .name{
+        font-weight:bolder;
+        font-size: 6.5vw;
+        margin: 0;
+    }
+    .position{
+        font-weight:bold;
+        font-size: 5.5vw;
+        margin: 0;
+    
+    }
+    .depart{
+        font-size: 4.5vw;
+        margin: 0;
+    
+    }
+    
+    
+    .mycard{
+        border-radius: 1vh;
+        background-color: rgba(107, 14, 76, 0.178);
+        text-align: center;
+        margin: 1vw;   
+    }
+    
+    .membertitle{
+            background-color: khaki;
+    
+    }
+    
+    .connectgit{
+        font-size: 4vw;
+    
+    }
+    
+    .gitlogo{
+        width :5vw;
+        height: 5vw;
+    }
+    
 }
 
 
@@ -64,20 +142,71 @@
     #mynav{
         margin: 2vw;
 
-        background-color: rgb(240, 128, 216);
     }
 
     .applogo{
-        height: 13vw;
-        width: 13vw;
+        height: 17vw;
+        width: 17vw;
         margin-right: 0.5vw;
     }
     
     #head_text{
     
-        font-size:4vw ;
-    }
+        font-size:6.5vw;
 
+
+    }
+    .dp{
+        height: 50%;
+        width: 50%;
+        border-radius: 50%;
+        margin-top: 4vw;
+        font-weight:bolder;
+        
+    }
+    
+    .name{
+        font-weight:bolder;
+        font-size: 5vw;
+        margin: 0;
+    }
+    .position{
+        font-weight:bold;
+        font-size: 4vw;
+        margin: 0;
+    
+    }
+    .depart{
+        font-size:3.5vw;
+        margin: 0;
+    
+    }
+    
+    
+    .mycard{
+        border-radius: 1vh;
+        background-color: rgba(107, 14, 76, 0.178);
+        text-align: center;
+        margin: 1vw;
+        margin-left: 2vw;
+        margin-right: 2vw;   
+    }
+    
+    .membertitle{
+            background-color: khaki;
+    
+    }
+    
+    .connectgit{
+        font-size: 3vw;
+    
+    }
+    
+    .gitlogo{
+        width :2vw;
+        height: 2vw;
+    }
+    
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -85,7 +214,79 @@
     #mynav{
         margin: 2vw;
         margin-left: 3vw;
-        background-color: rgb(147, 240, 128);
+    }
+
+    .applogo{
+        height: 16vw;
+        width: 16vw;
+        margin-right: 1vw;
+    }
+    
+    #head_text{
+    
+        font-size:5vw ;
+    }
+
+    .dp{
+        height: 50%;
+        width: 50%;
+        border-radius: 50%;
+        margin-top: 4vw;
+        
+    }
+    
+    .name{
+        font-weight:bolder;
+        font-size: 2.5vw;
+        margin: 0;                                                                  
+    }
+    .position{
+        font-weight:bold;
+        font-size: 2vw;
+        margin: 0;
+    
+    }
+    .depart{
+        font-size: 1.8vw;
+        margin: 0;
+    
+    }
+    
+    
+    .mycard{
+        border-radius: 1vh;
+        background-color: rgba(107, 14, 76, 0.178);
+        text-align: center;
+        margin: 1vw;  
+    }
+    
+    .membertitle{
+            background-color: khaki;
+    
+    }
+    
+    .connectgit{
+        font-size: 1.5vw;
+    
+    }
+    
+    .gitlogo{
+        width :2vw;
+        height: vw;
+    }
+    
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #mynav{
+        margin: 2vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        /* background-color: rgb(128, 240, 240); */
+        /* margin-top: 3vw; */
     }
 
     .applogo{
@@ -98,39 +299,60 @@
     
         font-size:3.5vw ;
     }
-
-
-
-
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    #mynav{
-        margin: 2vw;
-        margin-left: 4vw;
-        margin-right: 4vw;
-        background-color: rgb(128, 240, 240);
-        /* margin-top: 3vw; */
-    }
-
-    .applogo{
-        height: 10vw;
-        width: 10vw;
-        margin-right: 1vw;
-    }
-    
-    #head_text{
-    
-        font-size:3vw ;
-    }
     #allcards{
         margin: 4vw;
         margin-top: 5vw;
         margin-left: 5vw;
         margin-right: 5vw;
     }
+    .dp{
+        height: 13vw;
+        width: 13vw;
+        border-radius: 50%;
+        margin-top: 2vw;
+        
+    }
     
+    .name{
+        font-weight:bolder;
+        font-size: 2vw;
+        margin: 0;
+    }
+    .position{
+        font-weight:bold;
+        font-size: 1.5vw;
+        margin: 0;
+    
+    }
+    .depart{
+        font-size: 1.3vw;
+        margin: 0;
+    
+    }
+    
+    
+    .mycard{
+        border-radius: 1vh;
+        background-color: rgba(107, 14, 76, 0.178);
+        text-align: center;
+        margin: 1vw;   
+    }
+    
+    .membertitle{
+            background-color: khaki;
+    
+    }
+    
+    .connectgit{
+        font-size: 1vw;
+    
+    }
+    
+    .gitlogo{
+        width :1.5vw;
+        height: 1.5vw;
+    }
+      
 
  }
 
