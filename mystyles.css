@@ -10,6 +10,10 @@
     font-size:4vw ;
 }
 
+#allcards{
+    margin: 4vw;
+    margin-top: 10vw;
+}
 
 /* setxrasmall mobile */
 @media (max-width: 575px) { 
@@ -87,6 +91,7 @@
         margin-left: 4vw;
         margin-right: 4vw;
         background-color: rgb(128, 240, 240);
+        /* margin-top: 3vw; */
     }
 
     .applogo{
@@ -99,6 +104,13 @@
     
         font-size:3vw ;
     }
+    #allcards{
+        margin: 4vw;
+        margin-top: 5vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
 
  }
 
