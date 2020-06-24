@@ -59,7 +59,7 @@
                 <p class = "name" >Maheen Ahmed</p>
                 <p  class = "position" >Technical Director</p>
                 <p  class = "depart" >Electrical Engineering</p>
-                <div class = "connectgit"><a href="https://github.com/hibaasad">Connect on Github <img src="media/GitHub-Mark-32px.png" class = "gitlogo" alt = "git"/></a>
+                <div class = "connectgit"><a href="https://github.com/maheenahmed">Connect on Github <img src="media/GitHub-Mark-32px.png" class = "gitlogo" alt = "git"/></a>
                 
                 </div>
             </div>
